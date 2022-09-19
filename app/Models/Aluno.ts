@@ -18,7 +18,7 @@ export default class Aluno extends BaseModel {
   public email: string
 
   @column()
-  public telefone: string
+  public telefone: number
 
   @column()
   public cep: number
@@ -30,7 +30,7 @@ export default class Aluno extends BaseModel {
   public complemento: string
 
   @column()
-  public numero: string
+  public numero: number
 
   @column()
   public bairro: string

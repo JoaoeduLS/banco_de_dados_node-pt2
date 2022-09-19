@@ -15,7 +15,7 @@ export default class Professor extends BaseModel {
   public matricula: string
 
   @column()
-  public salario: string
+  public salario: number
 
   @column()
   public email: string
